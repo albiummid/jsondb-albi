@@ -1,0 +1,14 @@
+{
+  "name": "json-db-albi",
+  "description": "JSON DB for testing .",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Albi Ummid",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
