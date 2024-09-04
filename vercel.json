@@ -1,0 +1,12 @@
+{
+    "version": 2,
+    "name": "native-server",
+    "buildCommand": "npm run appInit",
+    "builds": [
+        {
+            "src": "server.js",
+            "use": "@vercel/node"
+        }
+    ],
+    "routes": [{ "src": "/(.*)", "dest": "server.js" }]
+}
